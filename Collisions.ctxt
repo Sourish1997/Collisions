@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=e
+comment0.target=void\ stateChanged(javax.swing.event.ChangeEvent)
+comment1.params=
+comment1.target=void\ init()
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=
+comment3.target=void\ refresh()
+comment4.params=
+comment4.target=Collisions()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment6.params=g
+comment6.target=void\ paintComponent(java.awt.Graphics)
+comment7.params=e
+comment7.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment8.params=shapeA\ shapeB
+comment8.target=boolean\ Intersection(java.awt.Shape,\ java.awt.Shape)
+comment9.params=
+comment9.target=java.awt.Color\ getColor()
+numComments=10
