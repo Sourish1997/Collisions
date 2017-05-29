@@ -150,6 +150,14 @@ public class Collisions extends JPanel implements ActionListener
     }
     public static void main(String args[])
     {
+        try {
+            for (UIManager.LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (Exception e) {}
         JOptionPane.showMessageDialog(null,"This application demonstrates perfectly elastic collisions in 2D.\n           Thanks to Yash for helping me out with the maths!\n                           Created by Sourish Banerjee.\n                                    Achieved with java."); 
         jf=new JFrame("Collisions");
         JFrame jf2=new JFrame("Control Box");
@@ -160,7 +168,7 @@ public class Collisions extends JPanel implements ActionListener
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jf.setResizable(false);
         jf.setLocation(tempJf.getX(),tempJf.getY());
-        jf2.setSize(450,237);
+        jf2.setSize(450,250);
         jf2.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         jf2.setLocation(jf.getX()+75,jf.getY()+420);
         jf2.setResizable(false);

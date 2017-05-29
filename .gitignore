@@ -1,43 +1,39 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Created by .ignore support plugin (hsz.mobi)
+### Java template
+# Compiled class file
+*.class
 
-# Folder config file
-Desktop.ini
+# Log file
+*.log
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
 
-# Windows shortcuts
-*.lnk
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
 
-# =========================
-# Operating System Files
-# =========================
+# Sensitive or high-churn files:
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
 
-# OSX
-# =========================
+# IntelliJ
+/out/
 
-.DS_Store
-.AppleDouble
-.LSOverride
+# mpeltonen/sbt-idea plugin
+.idea_modules/
 
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
